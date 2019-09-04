@@ -36,7 +36,7 @@ import csv
 
 
 a=[]
-with open('/home/it2016b208/Documents/vaib.csv') as csfile:
+with open('/home/it2016b207/Documents/finds.csv') as csfile:
     reader = csv.reader(csfile)
     for row in reader:
         a.append(row)
